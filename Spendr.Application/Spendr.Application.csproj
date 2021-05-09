@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Features\Card\Command\" />
+    <Folder Include="Features\Card\Queries\" />
+    <Folder Include="Models\Authentication\" />
+    <Folder Include="Models\Email\" />
+    <Folder Include="Responses\" />
+    <Folder Include="Profiles\" />
+  </ItemGroup>
+
+</Project>
