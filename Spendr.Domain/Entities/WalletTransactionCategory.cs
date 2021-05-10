@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Spendr.Domain.Entities
 {
-    class WalletTransactionCategory : BaseEntity
+    public class WalletTransactionCategory : BaseEntity
     {
         public string Name { get; set; }
 
         //navigational property
-        public Wallet Wallet { get; set; }
+        public ICollection<WalletTransaction> WalletTransactions { get; set; }
     }
 }

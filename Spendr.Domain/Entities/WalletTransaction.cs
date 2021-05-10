@@ -8,8 +8,10 @@ namespace Spendr.Domain.Entities
     {
         public decimal Balance { get; set; }
         public decimal TransactionAmount { get; set; }
-
+        public string WalletId { get; set; }
+        public string WalletTransactionCategoryId { get; set; }
         //navigational property
         public Wallet Wallet { get; set; }
+        public WalletTransactionCategory walletTransactionCategory { get; set; }
     }
 }

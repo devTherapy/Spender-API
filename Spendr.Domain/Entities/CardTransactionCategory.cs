@@ -9,6 +9,6 @@ namespace Spendr.Domain.Entities
         public string CategoryName { get; set; }
 
         //navigational properties
-        public CardTransaction CardTransaction { get; set; }
+        public ICollection<CardTransaction> CardTransaction { get; set; }
     }
 }

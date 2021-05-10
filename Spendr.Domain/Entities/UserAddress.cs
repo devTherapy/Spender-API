@@ -12,6 +12,7 @@ namespace Spendr.Domain.Entities
         public string State { get; set; }
         public string Country { get; set; }
         public int PostalCode { get; set; }
+        public string UserId {get; set;}
 
         //navigational property
         public User User { get; set; }

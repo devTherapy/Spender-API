@@ -8,6 +8,7 @@ namespace Spendr.Domain.Entities
     {
         public string CountryCode { get; set; }
         public string AreaCode { get; set; }
+        public string MerchantId { get; set; }
         //public string MerchantId { get; set;}
 
         //navigatonal properties

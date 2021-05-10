@@ -12,5 +12,6 @@ namespace Spendr.Domain.Entities
 
         //navigational properties
        public  ICollection<CardTransaction>CardTransactions{get; set;}
+        public User User { get; set;}
     }
 }

@@ -8,8 +8,8 @@ namespace Spendr.Domain.Entities
    public abstract class BaseEntity
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string Id { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime LastModifiedDate { get; set; }
+        public string Id { get; set;}
+        public DateTime CreatedDate { get; set;}
+        public DateTime LastModifiedDate { get; set;}
     }
 }

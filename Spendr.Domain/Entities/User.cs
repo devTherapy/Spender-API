@@ -10,7 +10,6 @@ namespace Spendr.Domain.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Gender { get; set; }
-        public string MyProperty { get; set; }
         public string isActive  { get; set; }
         public string isProfileCompleted { get; set; }
         public DateTime CreatedDate { get; set; }
@@ -18,6 +17,7 @@ namespace Spendr.Domain.Entities
 
         //navigational properties
         public ICollection<Card> Cards { get; set;}
+        public Wallet Wallet { get; set;}
         public UserAddress UserAddress { get; set; }
         public UserContact UserContact { get; set; }
 

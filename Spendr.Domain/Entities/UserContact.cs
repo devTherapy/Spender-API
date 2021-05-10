@@ -8,7 +8,7 @@ namespace Spendr.Domain.Entities
     {
         public string CountryCode { get; set; }
         public string AreaCode { get; set; }
-
+        public string UserId { get; set; }
         //navigationa; property
         public User User { get; set; }
     }

@@ -11,5 +11,8 @@ namespace Spendr.Domain.Entities
 
         //navigational properties
       public  ICollection<MerchantAddress> MerchantAddresses {get; set;}
+      public MerchantAddress MerchantAddress { get; set; }
+      public MerchantContact MerchantContact { get; set; }
+
     }
 }

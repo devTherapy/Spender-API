@@ -1,25 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Spender_API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Preceeder\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.5.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Spendr.Domain\Spendr.Domain.csproj" />
+    <ProjectReference Include="..\Spendr.Persistence\Spendr.Persistence.csproj" />
   </ItemGroup>
+
 
 </Project>
