@@ -6,5 +6,6 @@ namespace Spendr.Infrastructure.Mail
 {
     class EmailService
     {
+
     }
 }

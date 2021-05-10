@@ -66,14 +66,14 @@ namespace Spendr.Persistence
 
             builder.Entity<MerchantAddress>()
             .HasOne(e => e.Merchant)
-            .WithOne(e => e.MerchantAddress)
-            .HasForeignKey<MerchantAddress>(e => e.MerchantId)
+            .WithMany(e => e.MerchantAddress)
+            .HasForeignKey(e => e.MerchantId)
             .OnDelete(DeleteBehavior.ClientCascade);
 
             builder.Entity<MerchantContact>()
             .HasOne(e => e.Merchant)
-            .WithOne(e => e.MerchantContact)
-            .HasForeignKey<MerchantContact>(e => e.MerchantId)
+            .WithMany(e => e.MerchantContact)
+            .HasForeignKey(e => e.MerchantId)
             .OnDelete(DeleteBehavior.ClientCascade);
 
             builder.Entity<CardTransaction>()

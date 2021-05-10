@@ -4,5 +4,6 @@ namespace Spendr.Infrastructure
 {
     public class InfrastructureServiceRegistration
     {
+
     }
 }

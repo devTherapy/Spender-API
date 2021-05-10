@@ -10,9 +10,8 @@ namespace Spendr.Domain.Entities
         public string CompanyLogo { get; set; }
 
         //navigational properties
-      public  ICollection<MerchantAddress> MerchantAddresses {get; set;}
-      public MerchantAddress MerchantAddress { get; set; }
-      public MerchantContact MerchantContact { get; set; }
+      public ICollection<MerchantAddress> MerchantAddress { get; set; }
+      public ICollection<MerchantContact> MerchantContact { get; set; }
 
     }
 }
