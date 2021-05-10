@@ -8,7 +8,7 @@ namespace Spendr.Persistence
     public static class PersistenceServiceRegistration
     {
         public static void AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
-        {
+    {
             services.AddDbContext<SpendrDbContext>(options =>
                 options.UseNpgsql(configuration.GetConnectionString("SpendrApp")));
         }
