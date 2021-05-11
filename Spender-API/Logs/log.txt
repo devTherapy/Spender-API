@@ -1,0 +1,16 @@
+05/11/2021 04:52:16 Application starting up
+05/11/2021 04:52:18 Application started. Press Ctrl+C to shut down.
+05/11/2021 04:52:18 Hosting environment: "Development"
+05/11/2021 04:52:18 Content root path: "C:\Users\hp\Desktop\Spendr_API_ASP.NET\Spender-API\Spender-API"
+05/11/2021 04:52:18 Request starting HTTP/2.0 GET https://localhost:44300/swagger/index.html  
+05/11/2021 04:52:18 Request finished in 235.5173ms 200 text/html;charset=utf-8
+05/11/2021 04:52:18 Request starting HTTP/2.0 GET https://localhost:44300/swagger/v1/swagger.json  
+05/11/2021 04:52:18 Request finished in 43.9421ms 200 application/json;charset=utf-8
+05/11/2021 05:05:51 Application starting up
+05/11/2021 05:05:52 Application started. Press Ctrl+C to shut down.
+05/11/2021 05:05:52 Hosting environment: "Development"
+05/11/2021 05:05:52 Content root path: "C:\Users\hp\Desktop\Spendr_API_ASP.NET\Spender-API\Spender-API"
+05/11/2021 05:05:52 Request starting HTTP/2.0 GET https://localhost:44300/swagger/index.html  
+05/11/2021 05:05:52 Request finished in 162.3675ms 200 text/html;charset=utf-8
+05/11/2021 05:05:52 Request starting HTTP/2.0 GET https://localhost:44300/swagger/v1/swagger.json  
+05/11/2021 05:05:52 Request finished in 46.6151ms 200 application/json;charset=utf-8
