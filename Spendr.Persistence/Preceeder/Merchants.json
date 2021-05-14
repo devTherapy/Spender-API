@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "Eventix",
+    "CompanyLogo": "http://placehold.it/32x32",
+    "MerchantContact": [
+      {
+        "CountryCode": 234,
+        "AreaCode": "(929) 558-2452"
+      },
+      {
+        "CountryCode": 234,
+        "AreaCode": "(928) 555-3077"
+      }
+    ],
+    "MerchantAddress": [
+      {
+        "StreetNumber": 349,
+        "Street": "Chauncey Street",
+        "City": "Broadlands",
+        "State": "Nevada",
+        "Country": "Yemen",
+        "PostalCode": 818
+      },
+      {
+        "StreetNumber": 742,
+        "Street": "Coleridge Street",
+        "City": "Dana",
+        "State": "Puerto Rico",
+        "Country": "Eritrea",
+        "PostalCode": 851
+      }
+    ]
+  },
+  {
+    "Name": "Dadabase",
+    "CompanyLogo": "http://placehold.it/32x32",
+    "MerchantContact": [
+      {
+        "CountryCode": 234,
+        "AreaCode": "(933) 487-3992"
+      },
+      {
+        "CountryCode": 234,
+        "AreaCode": "(852) 469-3369"
+      }
+    ],
+    "MerchantAddress": [
+      {
+        "StreetNumber": 432,
+        "Street": "Argyle Road",
+        "City": "Barclay",
+        "State": "New Hampshire",
+        "Country": "French Polynesia",
+        "PostalCode": 870
+      },
+      {
+        "StreetNumber": 440,
+        "Street": "Portland Avenue",
+        "City": "Brambleton",
+        "State": "Nebraska",
+        "Country": "Aruba",
+        "PostalCode": 953
+      }
+    ]
+  },
+  {
+    "Name": "Shepard",
+    "CompanyLogo": "http://placehold.it/32x32",
+    "MerchantContact": [
+      {
+        "CountryCode": 234,
+        "AreaCode": "(837) 401-3094"
+      },
+      {
+        "CountryCode": 234,
+        "AreaCode": "(917) 531-3921"
+      }
+    ],
+    "MerchantAddress": [
+      {
+        "StreetNumber": 173,
+        "Street": "Bay Street",
+        "City": "Marysville",
+        "State": "Guam",
+        "Country": "Bermuda",
+        "PostalCode": 246
+      },
+      {
+        "StreetNumber": 949,
+        "Street": "Newton Street",
+        "City": "Caberfae",
+        "State": "Colorado",
+        "Country": "Northern Mariana Islands",
+        "PostalCode": 153
+      }
+    ]
+  }
+]
