@@ -1,0 +1,10 @@
+[
+  {
+    "Id" : "6a15eae7-e86d-4926-9f34-b783ecf69139",
+    "Name": "credit"
+  },
+  {
+    "Id": "e4dbbfab-8b98-4da9-935e-8a7a41da2f10",
+    "Name": "debit"
+  }
+]

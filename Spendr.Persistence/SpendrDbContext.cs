@@ -34,6 +34,12 @@ namespace Spendr.Persistence
                 .HasForeignKey(e => e.UserId)
                 .OnDelete(DeleteBehavior.ClientCascade);
 
+            builder.Entity<Card>()
+                .HasOne(e => e.Merchant)
+                .WithMany(e => e.Cards)
+                .HasForeignKey(e => e.MerchantId)
+                .OnDelete(DeleteBehavior.ClientCascade);
+
             builder.Entity<CardTransaction>()
                 .HasOne(e => e.Card)
                 .WithMany(e => e.CardTransactions)

@@ -1,0 +1,29 @@
+[
+  {
+    //wallet transaction category
+    "Id": "6a15eae7-e86d-4926-9f34-b783ecf69139" // credit
+  },
+  {
+    "Id": "e4dbbfab-8b98-4da9-935e-8a7a41da2f10" // debit
+  },
+  {
+    //card transaction id
+    "Id": "180849ca-a27e-46b3-a067-3ae96e37d07c" // generated
+  },
+  {
+    "Id": "123b081d-8cdb-429a-b7c9-0ca998818805" // expended 
+  },
+  {
+    "Id": "e09c7414-d7b0-43c8-aa46-9eedb54867e0" // transferred
+  },
+  {
+    "Id": "74d724f5-5cda-436e-9e8d-90fe046d1ac4" 
+  },
+  {
+    "Id": "47e5df5b-97e7-4cc6-a37b-f4e65997ccee"
+  },
+
+  {
+    "Id" : "e01cbd58-8486-4980-8713-71af09856399"
+  }
+]

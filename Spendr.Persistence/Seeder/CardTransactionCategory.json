@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "180849ca-a27e-46b3-a067-3ae96e37d07c", // generated
+    "CategoryName": "generated"
+  },
+  {
+    "Id": "123b081d-8cdb-429a-b7c9-0ca998818805", // expended 
+    "CategoryName": "expended"
+  },
+  {
+    "Id": "e09c7414-d7b0-43c8-aa46-9eedb54867e0", // transferred
+    "CategoryName": "transferred"
+  }
+]

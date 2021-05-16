@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Spendr.Persistence;
@@ -9,9 +10,10 @@ using Spendr.Persistence;
 namespace Spendr.Persistence.Migrations
 {
     [DbContext(typeof(SpendrDbContext))]
-    partial class SpendrDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210515151849_card-merchant-rel")]
+    partial class cardmerchantrel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

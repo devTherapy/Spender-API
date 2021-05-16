@@ -1,0 +1,171 @@
+[
+  //user 1
+  {
+    "FirstName": "Anna",
+    "LastName": "Hayden",
+    "UserName": "annahayden@acium.com",
+    "Gender": "female",
+    "ProfileUrl": "http://placehold.it/32x32",
+    "isActive": false,
+    "isProfileCompleted": false,
+    "Email": "annahayden@acium.com",
+    "UserContact": {
+      "CountryCode": "+234",
+      "AreaCode": "874-536-3564"
+    },
+    "UserAddress": {
+      "StreetNumber": 620,
+      "Street": "Dank Court",
+      "City": "Falconaire",
+      "State": "Mississippi",
+      "Country": "El Salvador",
+      "PostalCode": 244
+    },
+    "Cards": [
+      {
+        "MerchantId": "74d724f5-5cda-436e-9e8d-90fe046d1ac4",
+        "Value": "5000.00",
+        "isActive": true,
+        "CardTransactions": [
+          {
+            "CardTransactionCategoryId": "180849ca-a27e-46b3-a067-3ae96e37d07c" //generated
+
+          }
+        ]
+      }
+    ],
+    "Wallet": {
+      "Address": "6d2ce209-5553-4cce-acf3-d9463f7bac00",
+      "Balance": "15000.00",
+      "WalletTransactions": [
+        {
+          "Balance": "20000.00",
+          "TransactionAmount": "20000.00",
+          "WalletTransactionCategoryId" : "6a15eae7-e86d-4926-9f34-b783ecf69139" //credit
+          
+        },
+        {
+          "Balance": "15000.00",
+          "TransactionAmount": "5000.00",
+          "WalletTransactionCategoryId" : "e4dbbfab-8b98-4da9-935e-8a7a41da2f10" //debit
+          
+        }
+      ]
+    }
+
+
+  },
+  //user2
+  {
+    "FirstName": "Sherrie",
+    "LastName": "Richardson",
+    "Gender": "female",
+    "UserName": "sherrierichardson@acium.com",
+    "ProfileUrl": "http://placehold.it/32x32",
+    "isActive": "true",
+    "isProfileCompleted": false,
+    "Email": "sherrierichardson@acium.com",
+    "UserContact": {
+      "CountryCode": "+234",
+      "AreaCode": "861-591-2983"
+    },
+    "UserAddress": {
+      "StreetNumber": "785",
+      "Street": "Everett Avenue",
+      "City": "Hebron",
+      "State": "Georgia",
+      "Country": "Iran",
+      "PostalCode": 610
+    },
+    "Cards": [
+      {
+        "MerchantId":"47e5df5b-97e7-4cc6-a37b-f4e65997ccee",
+        "Value": "5000.00",
+        "isActive": true,
+        "CardTransactions": [
+          {
+            "CardTransactionCategoryId": "180849ca-a27e-46b3-a067-3ae96e37d07c" //generated
+
+          }
+
+        ]
+      }
+    ],
+    "Wallet": {
+      "Address": "6d2ce209-5553-4cce-acf3-d9463f7bac00",
+      "Balance": "15000.00",
+      "WalletTransactions": [
+        {
+          "Balance": "20000.00",
+          "TransactionAmount": "20000.00",
+          "WalletTransactionCategoryId": "6a15eae7-e86d-4926-9f34-b783ecf69139" //credit
+          
+        },
+        {
+          "Balance": "15000.00",
+          "TransactionAmount": "5000.00",
+          "WalletTransactionCategoryId":"e4dbbfab-8b98-4da9-935e-8a7a41da2f10" //debit
+          
+        }
+      ]
+    }
+
+
+  },
+  //user3
+  {
+    "FirstName": "Eaton",
+    "LastName": "Bender",
+    "Gender": "male",
+    "UserName": "eatonbender@acium.com",
+    "ProfileUrl": "http://placehold.it/32x32",
+    "isActive": true,
+    "isProfileCompleted": false,
+    "Email": "eatonbender@acium.com",
+    "UserContact": {
+      "CountryCode": "+234",
+      "AreaCode": "958-479-3152"
+    },
+    "UserAddress": {
+      "StreetNumber": "49A",
+      "Street": "Crosby Avenue",
+      "City": "Grapeview",
+      "State": "Colorado",
+      "Country": "Lithuania",
+      "PostalCode": 172
+    },
+    "Cards": [
+      {
+        "MerchantId": "e01cbd58-8486-4980-8713-71af09856399",
+        "Value": "5000.00",
+        "isActive": true,
+        "CardTransactions": [
+          {
+            "CardTransactionCategoryId": "180849ca-a27e-46b3-a067-3ae96e37d07c" //generated
+
+          }
+
+        ]
+      }
+    ],
+    "Wallet": {
+      "Address": "6d2ce209-5553-4cce-acf3-d9463f7bac00",
+      "Balance": "15000.00",
+      "WalletTransactions": [
+        {
+          "Balance": "20000.00",
+          "TransactionAmount": "20000.00",
+          "WalletTransactionCategoryId": "6a15eae7-e86d-4926-9f34-b783ecf69139" //credit
+          
+        },
+        {
+          "Balance": "15000.00",
+          "TransactionAmount": "5000.00",
+          "WalletTransactionCategoryId": "e4dbbfab-8b98-4da9-935e-8a7a41da2f10" //debit
+          
+        }
+      ]
+    }
+
+  }
+]

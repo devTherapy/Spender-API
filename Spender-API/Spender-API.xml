@@ -4,6 +4,17 @@
         <name>Spender-API</name>
     </assembly>
     <members>
+        <member name="T:Spendr.Persistence.IdentityUserRegistration">
+            <summary>
+            Registers Identity and Db context as a service
+            </summary>
+        </member>
+        <member name="M:Spendr.Persistence.IdentityUserRegistration.AddIdentityConfiguring(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
         <member name="M:Spender_API.Extensions.SwaggerServiceRegistration.AddConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             Method to add swagger configuration
@@ -23,7 +34,7 @@
             </summary>
             <param name="services"></param>
         </member>
-        <member name="M:Spender_API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+        <member name="M:Spender_API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Spendr.Persistence.SpendrDbContext,Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole},Microsoft.AspNetCore.Identity.UserManager{Spendr.Domain.Entities.User})">
             <summary>
             
             </summary>
